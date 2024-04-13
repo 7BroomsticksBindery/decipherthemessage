@@ -10,7 +10,10 @@ body {
 }
 
 .container {
-    width: 50%;
+    max-width: 80%;
+    /* max-height: 50%; */
+    /* width: auto; */
+    height: auto;
     position: relative;
 }
   
