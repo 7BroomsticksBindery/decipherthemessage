@@ -8,3 +8,25 @@ body {
     background-color: #fce6cd;
     color: #3d2416;
 }
+
+.container {
+    width: 50%;
+    position: relative;
+}
+  
+.image1, .image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.image1 {
+    z-index: 1;
+}
+
+.image2 {
+    z-index: 2;
+}
+  
+  
