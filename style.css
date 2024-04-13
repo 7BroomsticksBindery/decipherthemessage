@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'OldNewspaperTypes';
+    src: url('OldNewspaperTypes.ttf') format('truetype');
+}
+
+body {
+    font-family: 'MyWebFont', Fallback, sans-serif;    
+}
