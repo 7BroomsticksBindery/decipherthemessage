@@ -73,7 +73,7 @@ body {
     padding: 20px 4%;
     font-size: 1em;
     bottom: 5%;
-    width: 20%;
+    width: 25%;
 }
 
 #buttonLeft {
@@ -110,9 +110,8 @@ body {
     display: inline-block;
     border: 3px solid #3d2416;
     border-radius: 25px;    
-    padding: 5px 17px;
+    padding: 5px 20px;
     font-size: 1.5em;
-    width: 70%;
 }
 
 #information {
