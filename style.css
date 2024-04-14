@@ -9,6 +9,15 @@ body {
     color: #3d2416;
 }  
   
+#_7broomsticksbindery-logo {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 20%;
+    height: 20%;
+}
+
 .container {
     position: fixed;
     top: 0;
