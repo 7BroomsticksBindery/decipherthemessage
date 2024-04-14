@@ -110,6 +110,10 @@ body {
     position: relative;
     padding: 20px;
     z-index: 5;   
+    text-align: center;
+}
+
+#information p {
     text-align: justify; 
 }
 
