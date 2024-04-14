@@ -11,10 +11,9 @@ body {
   
 #_7broomsticksbindery-logo {
     position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: 20%;
+    top: 5%;
+    left: 5%;
+    width: 100px;
     height: auto;
 }
 
