@@ -27,14 +27,14 @@ body {
 
 @media (orientation: landscape) {
     .container img {
-        height: 80%;
+        height: 90%;
         width: auto;
     }
 }
 
 @media (orientation: portrait) {
     .container img {
-        width: 80%;
+        width: 90%;
         height: auto;
     }
 }
@@ -58,7 +58,7 @@ body {
     background-color: #fce6cd;
     border: 3px solid #3d2416;
     border-radius: 35px;    
-    padding: 20px 50px;
+    padding: 20px 40px;
     font-size: 1.5em;
     bottom: 5%;
 }
