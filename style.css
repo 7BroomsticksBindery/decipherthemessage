@@ -41,8 +41,8 @@ body {
     #content table{
         position: absolute;
         top: 40%;
-        right: 10;
-        transform: translate(-40%, -10%);
+        right: -5%;
+        transform: translate(-40%, 0);
         font-size: 1.2em;
     }
 }
@@ -55,9 +55,9 @@ body {
     #content table {
         position: fixed;
         text-align: center;
-        bottom: 15%;
+        bottom: 20%;
         left: 50%;
-        transform: translate(-50%, -15%);
+        transform: translate(-50%, -20%);
         font-size: 1.2em;
     }
 }
