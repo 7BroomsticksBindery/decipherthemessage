@@ -7,36 +7,38 @@
     </head>
     <body>
         <div id="information">
-            <p>
+            <p id="paragraph">
                 Dearest New Friend,
                 <br><br>
                 I trust this note finds you in good spirits. It is with great pleasure that I write to extend to you an invitation of the utmost importance, on behalf of my esteemed friend, Mr. Sherlock Holmes. In his unending quest for worthy allies in the pursuit of truth and justice, Mr. Holmes has devised a challenge—a test of wit and intellect. He believes, as do I and Dr. Watson, that you possess the aptitude and determination required to excel. Enclosed within this note is a cipher—a coded message to be deciphered. Should you successfully unravel its secrets, you will not only earn Mr. Holmes's admiration but also the honor of joining his esteemed detective agency.
                 <br><br>
                 Mr. Holmes has provided a clue to aid you: 
                 <br>
-                <div id="clue">
-                    <li>The wheel below may be of some use.</li>
-                    <li>⁠To begin at the beginning, remember that every journey starts with the letter A.</li>
-                    <li>⁠The key, which is used to reveal the cipher, lies in the power of rotation, where each turn may unveil new paths and hidden truths.</li>
+                    <ul>
+                        <li>The wheel below may be of some use.</li>
+                        <li>⁠To begin at the beginning, remember that every journey starts with the letter A.</li>
+                        <li>⁠The key, which is used to reveal the cipher, lies in the power of rotation, where each turn may unveil new paths and hidden truths.</li>
+                    </ul>
                     <br><br>
                     The key	: hpclgrj
                     <br>
                     The cipher	: jxnfqsj
                     <br><br>
-                    </div>
-                Mr. Holmes also has instructed me to provide you with the link through which you may send the deciphered message. 
-                Please find it enclosed <a href="https://forms.gle/Wv3WoPavrH7Ax2bG7">https://forms.gle/Wv3WoPavrH7Ax2bG7</a>
-                <br><br>
-                Wishes of luck to you. Mr. Holmes, Dr. Watson, and I will wait for your correspondence.
-                <br><br>
-                Sincerely,
-                <br>
-                Your New Pal.
-                <br>
-                Patricia Chamora from 7 Broomsticks Bindery
+                    Mr. Holmes also has instructed me to provide you with the link through which you may send the deciphered message. 
+                    Please find it enclosed <a href="https://forms.gle/Wv3WoPavrH7Ax2bG7">https://forms.gle/Wv3WoPavrH7Ax2bG7</a>
+                    <br><br>
+                    Wishes of luck to you. Mr. Holmes, Dr. Watson, and I will wait for your correspondence.
+                    <br><br>
+                    Sincerely,
+                    <br>
+                    Your New Pal.
+                    <br>
+                    Patricia Chamora from 7 Broomsticks Bindery
             </p>
             <br>
-            <button id="buttonOK">Cipher Wheel</button>
+            <p id="buttonParagraph">
+                <button id="buttonOK">Cipher Wheel</button>
+            </p>
         </div>
         <div id="wheel">
             <img id="_7broomsticksbindery-logo" src="7broomsticksbindery-logo.png">
@@ -48,6 +50,11 @@
             <button class="buttonRotate" id="buttonLeft">LEFT</button>
             <button class="buttonRotate" id="buttonRight">RIGHT</button>    
             <button id="buttonInfo">?</button>    
+            <p id="content">
+                The key : hpclgrj
+                <br>
+                The cipher : jxnfqsj
+            </p>
         </div>
         <script src="script.js"></script>
     </body>

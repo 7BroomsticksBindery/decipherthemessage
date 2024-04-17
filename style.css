@@ -35,14 +35,14 @@ body {
 
 @media (orientation: landscape) {
     .container img {
-        height: 90%;
+        height: 70%;
         width: auto;
     }
 }
 
 @media (orientation: portrait) {
     .container img {
-        width: 90%;
+        width: 70%;
         height: auto;
     }
 }
@@ -119,11 +119,14 @@ body {
     position: relative;
     padding: 20px;
     z-index: 5;   
-    text-align: center;
 }
 
-#information p {
-    text-align: justify; 
+#paragraph {
+    text-align: justify;
+}
+
+#buttonParagraph {
+    text-align: center;
 }
 
 #clue {
@@ -132,4 +135,11 @@ body {
 
 #wheel {
     display: none;
+}
+
+#content {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
 }
