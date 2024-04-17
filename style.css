@@ -38,12 +38,26 @@ body {
         height: 70%;
         width: auto;
     }
+    #content {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(-50%, 0);
+        font-size: 1em;
+    }
 }
 
 @media (orientation: portrait) {
     .container img {
         width: 70%;
         height: auto;
+    }
+    #content {
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 1em;
     }
 }
 
@@ -119,6 +133,7 @@ body {
     position: relative;
     padding: 20px;
     z-index: 5;   
+    text-align: justify;
 }
 
 #paragraph {
@@ -135,11 +150,4 @@ body {
 
 #wheel {
     display: none;
-}
-
-#content {
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
-    transform: translateX(-50%);
 }
