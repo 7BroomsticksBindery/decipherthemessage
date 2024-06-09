@@ -50,14 +50,14 @@ body {
         top: 50%;    
         left: 1%;
         transform: translate(-1%, -50%);
-        padding: 70px 5px;
+        padding: 70px 20px;
     }
     
     #buttonRight {
         top: 50%;    
         right: 1%;
         transform: translate(-1%, -50%);
-        padding: 70px 5px;
+        padding: 70px 20px;
     }    
 }
 
@@ -72,20 +72,20 @@ body {
     .content table {
         white-space:nowrap;
         position: fixed;
-        bottom: 5%;
+        bottom: 0%;
         left: 50%;
-        transform: translate(-50%, -5%);
+        transform: translate(-50%, -0%);
         font-size: 1.2em;
     }
     #buttonLeft {
-        top: 77%;    
+        top: 80%;    
         left: 1%;
         transform: translate(-1%, -75%);
         padding: 20px 20px;
     }
     
     #buttonRight {
-        top: 77%;    
+        top: 80%;    
         right: 1%;
         transform: translate(-1%, -75%);
         padding: 20px 20px;
@@ -102,7 +102,6 @@ body {
 
 .imageInner {
     z-index: 3;
-    transition: transform 0.5s ease-in-out;
 }
 
 .buttonRotate {
@@ -117,8 +116,6 @@ body {
     border: 3px solid #3d2416;
     border-radius: 25px;    
     font-size: 1.5em;
-    /* bottom: 5%; */
-    /* width: 25%; */
 }
 
 #buttonInfo {

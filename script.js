@@ -14,19 +14,25 @@ document.addEventListener("DOMContentLoaded", function() {
     if (window.innerHeight > window.innerWidth) {
         contentPortrait.style.display = "block";
         contentLandscape.style.display = "none";
+        imageInner.style.transition = "transform 0.0s ease-in-out";
         translateDistance = "-50%";
+        imageInner.style.transform = "translate(-50%, " + translateDistance + ") rotate(" + angleDeg + "deg)";
     } else {
         contentPortrait.style.display = "none";
         contentLandscape.style.display = "block";
+        imageInner.style.transition = "transform 0.0s ease-in-out";
         translateDistance = "-20%";
+        imageInner.style.transform = "translate(-50%, " + translateDistance + ") rotate(" + angleDeg + "deg)";
     }
 
     buttonLeft.addEventListener("click", function() {
+        imageInner.style.transition = "transform 0.5s ease-in-out";
         angleDeg = angleDeg - 13.846153846153846;
         imageInner.style.transform = "translate(-50%, " + translateDistance + ") rotate(" + angleDeg + "deg)";
         console.log("angle = " + angleDeg);
     });
     buttonRight.addEventListener("click", function() {
+        imageInner.style.transition = "transform 0.5s ease-in-out";
         angleDeg = angleDeg + 13.846153846153846;
         imageInner.style.transform = "translate(-50%, " + translateDistance + ") rotate(" + angleDeg + "deg)";
         console.log("angle = " + angleDeg);
@@ -44,11 +50,13 @@ document.addEventListener("DOMContentLoaded", function() {
         if (window.innerHeight > window.innerWidth) {
             contentPortrait.style.display = "block";
             contentLandscape.style.display = "none";
+            imageInner.style.transition = "transform 0.0s ease-in-out";
             translateDistance = "-50%";
             imageInner.style.transform = "translate(-50%, " + translateDistance + ") rotate(" + angleDeg + "deg)";
         } else {
             contentPortrait.style.display = "none";
             contentLandscape.style.display = "block";
+            imageInner.style.transition = "transform 0.0s ease-in-out";
             translateDistance = "-20%";
             imageInner.style.transform = "translate(-50%, " + translateDistance + ") rotate(" + angleDeg + "deg)";
         }
@@ -58,11 +66,13 @@ document.addEventListener("DOMContentLoaded", function() {
         if (window.innerHeight > window.innerWidth) {
             contentPortrait.style.display = "block";
             contentLandscape.style.display = "none";
+            imageInner.style.transition = "transform 0.0s ease-in-out";
             translateDistance = "-50%";
             imageInner.style.transform = "translate(-50%, " + translateDistance + ") rotate(" + angleDeg + "deg)";
         } else {
             contentPortrait.style.display = "none";
             contentLandscape.style.display = "block";
+            imageInner.style.transition = "transform 0.0s ease-in-out";
             translateDistance = "-20%";
             imageInner.style.transform = "translate(-50%, " + translateDistance + ") rotate(" + angleDeg + "deg)";
         }
