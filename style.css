@@ -72,22 +72,22 @@ body {
     .content table {
         white-space:nowrap;
         position: fixed;
-        bottom: 0%;
+        bottom: 1.5%;
         left: 50%;
-        transform: translate(-50%, -0%);
+        transform: translate(-50%, -1.5%);
         font-size: 1.2em;
     }
     #buttonLeft {
-        top: 80%;    
-        left: 1%;
-        transform: translate(-1%, -75%);
+        top: 77%;    
+        left: 5%;
+        transform: translate(-5%, -77%);
         padding: 10px 20px;
     }
     
     #buttonRight {
-        top: 80%;    
-        right: 1%;
-        transform: translate(-1%, -75%);
+        top: 77%;    
+        right: 5%;
+        transform: translate(-5%, -77%);
         padding: 10px 20px;
     }    
 }
