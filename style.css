@@ -28,38 +28,41 @@ body {
 .container img {
     position: fixed;
     object-fit: scale-down;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -20%);
 }
 
 @media (orientation: landscape) {
     .container img {
-        height: 70%;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        height: 65%;
         width: auto;
     }
     #content table{
         white-space:nowrap;
         position: fixed;
-        bottom: 15%;
+        bottom: 10%;
         left: 50%;
-        transform: translate(-50%, -15%);
-        font-size: 1.2em;
+        transform: translate(-50%, -10%);
+        font-size: 1.0em;
     }
 }
 
 @media (orientation: portrait) {
     .container img {
-        width: 70%;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        width: 80%;
         height: auto;
     }
     #content table {
         white-space:nowrap;
         position: fixed;
-        bottom: 15%;
+        bottom: 10%;
         left: 50%;
-        transform: translate(-50%, -15%);
-        font-size: 1.2em;
+        transform: translate(-50%, -10%);
+        font-size: 1.0em;
     }
 }
 
