@@ -10,12 +10,12 @@ document.addEventListener("DOMContentLoaded", function() {
   
     buttonLeft.addEventListener("click", function() {
         angleDeg = angleDeg - 13.846153846153846;
-        imageInner.style.transform = "translate(-50%, -20%) rotate(" + angleDeg + "deg)";
+        imageInner.style.transform = "translate(-50%, -50%) rotate(" + angleDeg + "deg)";
         console.log("angle = " + angleDeg);
     });
     buttonRight.addEventListener("click", function() {
         angleDeg = angleDeg + 13.846153846153846;
-        imageInner.style.transform = "translate(-50%, -20%) rotate(" + angleDeg + "deg)";
+        imageInner.style.transform = "translate(-50%, -50%) rotate(" + angleDeg + "deg)";
         console.log("angle = " + angleDeg);
     });
     buttonInfo.addEventListener("click", function() {
