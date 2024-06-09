@@ -31,6 +31,10 @@ body {
 }
 
 @media (orientation: landscape) {
+    #_7broomsticksbindery-logo {
+        left: 10%;
+    }
+
     .container img {
         height: 70%;
         width: auto;
@@ -62,6 +66,10 @@ body {
 }
 
 @media (orientation: portrait) {
+    #_7broomsticksbindery-logo {
+        left: 5%;
+    }    
+
     .container img {
         width: 95%;
         height: auto;
@@ -86,8 +94,8 @@ body {
     
     #buttonRight {
         top: 80%;    
-        right: 3%;
-        transform: translate(-3%, -80%);
+        right: 2%;
+        transform: translate(-2%, -80%);
         padding: 10px 20px;
     }    
 }
