@@ -28,17 +28,17 @@ body {
 .container img {
     position: fixed;
     object-fit: scale-down;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @media (orientation: landscape) {
     .container img {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        height: 65%;
+        height: 80%;
         width: auto;
     }
-    #content table{
+    .content table{
         white-space:nowrap;
         position: fixed;
         bottom: 0%;
@@ -50,13 +50,10 @@ body {
 
 @media (orientation: portrait) {
     .container img {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 65%;
+        width: 80%;
         height: auto;
     }
-    #content table {
+    .content table {
         white-space:nowrap;
         position: fixed;
         bottom: 0%;
@@ -161,3 +158,12 @@ body {
 #wheel {
     display: none;
 }
+
+#contentPortrait {
+    display: none;
+}
+
+#contentLandscape {
+    display: none;
+}
+
