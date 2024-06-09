@@ -41,9 +41,9 @@ body {
     #content table{
         white-space:nowrap;
         position: fixed;
-        bottom: 1%;
+        bottom: 0%;
         left: 50%;
-        transform: translate(-50%, -1%);
+        transform: translate(-50%, -0%);
         font-size: 1.2em;
     }
 }
@@ -59,9 +59,9 @@ body {
     #content table {
         white-space:nowrap;
         position: fixed;
-        bottom: 1%;
+        bottom: 0%;
         left: 50%;
-        transform: translate(-50%, -1%);
+        transform: translate(-50%, -0%);
         font-size: 1.2em;
     }
 }
@@ -90,9 +90,9 @@ body {
     display: inline-block;
     border: 3px solid #3d2416;
     border-radius: 25px;    
-    padding: 5px;
+    padding: 70px 10px;
     font-size: 1.5em;
-    bottom: 5%;
+    /* bottom: 5%; */
     /* width: 25%; */
 }
 
