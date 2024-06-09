@@ -46,11 +46,24 @@ body {
         transform: translate(-50%, -5%);
         font-size: 1.2em;
     }
+    #buttonLeft {
+        top: 50%;    
+        left: 1%;
+        transform: translate(-1%, -50%);
+        padding: 70px 5px;
+    }
+    
+    #buttonRight {
+        top: 50%;    
+        right: 1%;
+        transform: translate(-1%, -50%);
+        padding: 70px 5px;
+    }    
 }
 
 @media (orientation: portrait) {
     .container img {
-        width: 70%;
+        width: 95%;
         height: auto;
         top: 50%;
         left: 50%;
@@ -64,6 +77,19 @@ body {
         transform: translate(-50%, -5%);
         font-size: 1.2em;
     }
+    #buttonLeft {
+        top: 77%;    
+        left: 1%;
+        transform: translate(-1%, -75%);
+        padding: 20px 20px;
+    }
+    
+    #buttonRight {
+        top: 77%;    
+        right: 1%;
+        transform: translate(-1%, -75%);
+        padding: 20px 20px;
+    }    
 }
 
 .imageOuter {
@@ -90,22 +116,9 @@ body {
     display: inline-block;
     border: 3px solid #3d2416;
     border-radius: 25px;    
-    padding: 70px 5px;
     font-size: 1.5em;
     /* bottom: 5%; */
     /* width: 25%; */
-}
-
-#buttonLeft {
-    top: 50%;    
-    left: 1%;
-    transform: translate(-1%, -50%);
-}
-
-#buttonRight {
-    top: 50%;    
-    right: 1%;
-    transform: translate(-1%, -50%);
 }
 
 #buttonInfo {
