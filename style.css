@@ -35,7 +35,7 @@ body {
 
 @media (orientation: landscape) {
     .container img {
-        height: 75%;
+        height: 70%;
         width: auto;
     }
     .content table{
@@ -50,7 +50,7 @@ body {
 
 @media (orientation: portrait) {
     .container img {
-        width: 75%;
+        width: 70%;
         height: auto;
     }
     .content table {
