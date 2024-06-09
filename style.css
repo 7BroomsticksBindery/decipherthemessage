@@ -41,16 +41,16 @@ body {
     .content table{
         white-space:nowrap;
         position: fixed;
-        bottom: 0%;
+        bottom: 5%;
         left: 50%;
-        transform: translate(-50%, -0%);
+        transform: translate(-50%, -5%);
         font-size: 1.2em;
     }
 }
 
 @media (orientation: portrait) {
     .container img {
-        width: 65%;
+        width: 70%;
         height: auto;
         top: 50%;
         left: 50%;
@@ -59,9 +59,9 @@ body {
     .content table {
         white-space:nowrap;
         position: fixed;
-        bottom: 0%;
+        bottom: 5%;
         left: 50%;
-        transform: translate(-50%, -0%);
+        transform: translate(-50%, -5%);
         font-size: 1.2em;
     }
 }
@@ -90,7 +90,7 @@ body {
     display: inline-block;
     border: 3px solid #3d2416;
     border-radius: 25px;    
-    padding: 70px 10px;
+    padding: 70px 5px;
     font-size: 1.5em;
     /* bottom: 5%; */
     /* width: 25%; */
