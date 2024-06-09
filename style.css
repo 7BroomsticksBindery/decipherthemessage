@@ -94,8 +94,8 @@ body {
     
     #buttonRight {
         top: 80%;    
-        right: 2%;
-        transform: translate(-2%, -80%);
+        right: 4%;
+        transform: translate(-4%, -80%);
         padding: 10px 20px;
     }    
 }
